@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TasksListsTableTableViewController.h
 //  Mementos
 //
 //  Created by Leonid Kokhnovych on 11/17/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TasksListsTableTableViewController : UITableViewController
 
 @end
-

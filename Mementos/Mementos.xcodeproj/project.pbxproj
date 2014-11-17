@@ -10,11 +10,16 @@
 		B3D8BCE61A1A302C00063113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BCE51A1A302C00063113 /* main.m */; };
 		B3D8BCE91A1A302C00063113 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BCE81A1A302C00063113 /* AppDelegate.m */; };
 		B3D8BCEC1A1A302C00063113 /* Mementos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BCEA1A1A302C00063113 /* Mementos.xcdatamodeld */; };
-		B3D8BCEF1A1A302C00063113 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BCEE1A1A302C00063113 /* ViewController.m */; };
 		B3D8BCF21A1A302C00063113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D8BCF01A1A302C00063113 /* Main.storyboard */; };
 		B3D8BCF41A1A302C00063113 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D8BCF31A1A302C00063113 /* Images.xcassets */; };
 		B3D8BCF71A1A302C00063113 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D8BCF51A1A302C00063113 /* LaunchScreen.xib */; };
 		B3D8BD031A1A302D00063113 /* MementosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BD021A1A302D00063113 /* MementosTests.m */; };
+		B3D8BD241A1A4C4500063113 /* TasksListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BD231A1A4C4500063113 /* TasksListsViewController.m */; };
+		B3D8BD271A1A4E0300063113 /* TasksListsTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BD261A1A4E0300063113 /* TasksListsTableTableViewController.m */; };
+		B3D8BD2F1A1A529900063113 /* TasksListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BD2E1A1A529900063113 /* TasksListTableViewCell.m */; };
+		B3D8BD361A1A55B900063113 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BD331A1A55B900063113 /* Task.m */; };
+		B3D8BD371A1A55B900063113 /* TasksList.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BD351A1A55B900063113 /* TasksList.m */; };
+		B3D8BD3A1A1A55CD00063113 /* TasksDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D8BD391A1A55CD00063113 /* TasksDatabaseHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +39,26 @@
 		B3D8BCE71A1A302C00063113 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3D8BCE81A1A302C00063113 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B3D8BCEB1A1A302C00063113 /* Mementos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mementos.xcdatamodel; sourceTree = "<group>"; };
-		B3D8BCED1A1A302C00063113 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B3D8BCEE1A1A302C00063113 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B3D8BCF11A1A302C00063113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3D8BCF31A1A302C00063113 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B3D8BCF61A1A302C00063113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B3D8BCFC1A1A302D00063113 /* MementosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MementosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D8BD011A1A302D00063113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3D8BD021A1A302D00063113 /* MementosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementosTests.m; sourceTree = "<group>"; };
+		B3D8BD221A1A4C4500063113 /* TasksListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksListsViewController.h; sourceTree = "<group>"; };
+		B3D8BD231A1A4C4500063113 /* TasksListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksListsViewController.m; sourceTree = "<group>"; };
+		B3D8BD251A1A4E0300063113 /* TasksListsTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksListsTableTableViewController.h; sourceTree = "<group>"; };
+		B3D8BD261A1A4E0300063113 /* TasksListsTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksListsTableTableViewController.m; sourceTree = "<group>"; };
+		B3D8BD2D1A1A529900063113 /* TasksListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksListTableViewCell.h; sourceTree = "<group>"; };
+		B3D8BD2E1A1A529900063113 /* TasksListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksListTableViewCell.m; sourceTree = "<group>"; };
+		B3D8BD321A1A55B900063113 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B3D8BD331A1A55B900063113 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		B3D8BD341A1A55B900063113 /* TasksList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksList.h; sourceTree = "<group>"; };
+		B3D8BD351A1A55B900063113 /* TasksList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksList.m; sourceTree = "<group>"; };
+		B3D8BD381A1A55CD00063113 /* TasksDatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksDatabaseHelper.h; sourceTree = "<group>"; };
+		B3D8BD391A1A55CD00063113 /* TasksDatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksDatabaseHelper.m; sourceTree = "<group>"; };
+		B3D8BD3C1A1A574D00063113 /* DatabaseConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseConstants.h; sourceTree = "<group>"; };
+		B3D8BD3D1A1A586400063113 /* Mementos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mementos-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +100,12 @@
 		B3D8BCE21A1A302C00063113 /* Mementos */ = {
 			isa = PBXGroup;
 			children = (
+				B3D8BD281A1A509600063113 /* ViewComponents */,
+				B3D8BD211A1A4C0800063113 /* ViewControllers */,
+				B3D8BD121A1A3EB800063113 /* Model */,
 				B3D8BCE71A1A302C00063113 /* AppDelegate.h */,
 				B3D8BCE81A1A302C00063113 /* AppDelegate.m */,
-				B3D8BCED1A1A302C00063113 /* ViewController.h */,
-				B3D8BCEE1A1A302C00063113 /* ViewController.m */,
+				B3D8BD3C1A1A574D00063113 /* DatabaseConstants.h */,
 				B3D8BCF01A1A302C00063113 /* Main.storyboard */,
 				B3D8BCF31A1A302C00063113 /* Images.xcassets */,
 				B3D8BCF51A1A302C00063113 /* LaunchScreen.xib */,
@@ -101,6 +120,7 @@
 			children = (
 				B3D8BCE41A1A302C00063113 /* Info.plist */,
 				B3D8BCE51A1A302C00063113 /* main.m */,
+				B3D8BD3D1A1A586400063113 /* Mementos-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,6 +140,63 @@
 				B3D8BD011A1A302D00063113 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3D8BD121A1A3EB800063113 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8BD311A1A556300063113 /* Entities */,
+				B3D8BD301A1A555900063113 /* Helpers */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3D8BD211A1A4C0800063113 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8BD221A1A4C4500063113 /* TasksListsViewController.h */,
+				B3D8BD231A1A4C4500063113 /* TasksListsViewController.m */,
+				B3D8BD251A1A4E0300063113 /* TasksListsTableTableViewController.h */,
+				B3D8BD261A1A4E0300063113 /* TasksListsTableTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B3D8BD281A1A509600063113 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8BD291A1A525500063113 /* TasksListCell */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		B3D8BD291A1A525500063113 /* TasksListCell */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8BD2D1A1A529900063113 /* TasksListTableViewCell.h */,
+				B3D8BD2E1A1A529900063113 /* TasksListTableViewCell.m */,
+			);
+			name = TasksListCell;
+			sourceTree = "<group>";
+		};
+		B3D8BD301A1A555900063113 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8BD381A1A55CD00063113 /* TasksDatabaseHelper.h */,
+				B3D8BD391A1A55CD00063113 /* TasksDatabaseHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B3D8BD311A1A556300063113 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B3D8BD321A1A55B900063113 /* Task.h */,
+				B3D8BD331A1A55B900063113 /* Task.m */,
+				B3D8BD341A1A55B900063113 /* TasksList.h */,
+				B3D8BD351A1A55B900063113 /* TasksList.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D8BD361A1A55B900063113 /* Task.m in Sources */,
+				B3D8BD2F1A1A529900063113 /* TasksListTableViewCell.m in Sources */,
 				B3D8BCE91A1A302C00063113 /* AppDelegate.m in Sources */,
+				B3D8BD3A1A1A55CD00063113 /* TasksDatabaseHelper.m in Sources */,
 				B3D8BCEC1A1A302C00063113 /* Mementos.xcdatamodeld in Sources */,
-				B3D8BCEF1A1A302C00063113 /* ViewController.m in Sources */,
+				B3D8BD371A1A55B900063113 /* TasksList.m in Sources */,
+				B3D8BD271A1A4E0300063113 /* TasksListsTableTableViewController.m in Sources */,
+				B3D8BD241A1A4C4500063113 /* TasksListsViewController.m in Sources */,
 				B3D8BCE61A1A302C00063113 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Mementos/Mementos-Prefix.pch";
 				INFOPLIST_FILE = Mementos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "Mementos/Mementos-Prefix.pch";
 				INFOPLIST_FILE = Mementos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +502,7 @@
 				B3D8BD081A1A302D00063113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3D8BD091A1A302D00063113 /* Build configuration list for PBXNativeTarget "MementosTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +511,7 @@
 				B3D8BD0B1A1A302D00063113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
